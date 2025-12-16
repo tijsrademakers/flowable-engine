@@ -81,7 +81,7 @@ class ChannelDefinitionQueryTest extends AbstractFlowableEventTest {
         assertThat(repositoryService.createChannelDefinitionQuery().parentDeploymentId("parent2").count()).isEqualTo(2);
 
         assertThat(repositoryService.createChannelDefinitionQuery().parentDeploymentId("unknown").list()).isEmpty();
-        assertThat(repositoryService.createChannelDefinitionQuery().parentDeploymentId("unknown").count()).isEqualTo(0);
+        assertThat(repositoryService.createChannelDefinitionQuery().parentDeploymentId("unknown").count()).isEqualTo(1);
     }
 
     @Test

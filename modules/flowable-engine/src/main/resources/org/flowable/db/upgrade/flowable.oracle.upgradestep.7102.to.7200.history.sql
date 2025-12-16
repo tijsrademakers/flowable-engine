@@ -1,1 +1,0 @@
-alter table ACT_HI_ACTINST add COMPLETED_BY_ NVARCHAR2(255);

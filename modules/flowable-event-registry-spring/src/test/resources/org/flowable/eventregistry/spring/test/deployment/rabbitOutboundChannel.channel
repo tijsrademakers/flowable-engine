@@ -1,9 +1,0 @@
-{
-    "key": "outboundCustomer",
-    "category": "channel",
-    "name": "Test channel",
-    "channelType": "outbound",
-    "type": "rabbit",
-    "routingKey": "outbound-customer",
-    "serializerType": "json"
-}

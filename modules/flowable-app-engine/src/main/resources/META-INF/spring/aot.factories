@@ -1,2 +1,0 @@
-org.springframework.aot.hint.RuntimeHintsRegistrar=\
-org.flowable.app.engine.impl.aot.FlowableAppRuntimeHints

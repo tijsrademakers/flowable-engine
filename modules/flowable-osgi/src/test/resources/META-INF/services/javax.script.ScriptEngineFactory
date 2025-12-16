@@ -1,4 +1,0 @@
-# Comments, tabs and spaces should be ignored
-# See java.util.ServiceLoader
-
-	org.flowable.ScriptEngineFactoryMock # should be also ignored
