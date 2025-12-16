@@ -31,7 +31,7 @@ jobs:
       # Need to do install first in order for the OSGi tests to work
       run: ./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true
     - name: Test
-      run: ./mvnw verify -Pdistro,errorLogging,include-spring-boot-samples ${MAVEN_ARGS} -Dmaven.test.redirectTestOutputToFile=false
+      run: ./mvnw verify -Pdistro,errorLogging,include-spring-boot-samples ${MAVEN_ARGS} -Dmaven.test.redirectTestOutputToFile=true
     - name: Publish Test Results
       if: always()   # important: runs even if tests fail
       uses: EnricoMi/publish-unit-test-result-action@v2
